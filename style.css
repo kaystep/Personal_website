@@ -64,7 +64,7 @@ body {
 
 .page-section#intro {
 	height: 100px;
-    background: url(resources/img/background.JPG) bottom center no-repeat;
+    background: url("https://lawrencecheng123.github.io/background.JPG") bottom center no-repeat;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
