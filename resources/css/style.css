@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    
+    box-sizing: border-box;
 }
 
 html {
@@ -25,10 +25,13 @@ body {
 }
 .header .navbar-brand {
 	font-weight: 900;
+    color: #00cc99;
 }
 .header .navbar {
 	margin: 0;
 	border: none;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .page-section {
 	width: 100%;
@@ -67,12 +70,110 @@ body {
     background-repeat: no-repeat;
 }
 
-.profile-pic {
-    height: 100px;
-    margin: auto;
-    position: absolute;
-    top: 0; left: 0; bottom: 0; right: 0;
+.img-circle {
+    height: 200px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid black;
+    
 }
+.center-intro {
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 200px;
+    text-align: center;
+}
+
+.font-awesome-logos {
+    color: #00cc99;
+}
+
+.center-intro h2 {
+    color: #00cc99;
+}
+
+.center-intro h3 {
+    color: #00cc99;
+    margin-top: -20px;
+}
+
+.page-section#skills {
+	height: 100px;
+    background-color: ##f0f5f5;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.center-skills  {
+    text-align: center;
+    margin-top: -20px;
+}
+
+.bar-skill {
+  background: rgba(77, 87, 99, 0.13);
+  padding: 1px;
+  border-radius: 4px;
+  border: 3px solid black;
+  
+}
+
+.this-skill {
+  height: 28px;
+  border-radius: 3px;
+}
+
+.img-skill {
+    height: 35px;
+}
+
+.title-skill {
+  font-size: 25px;
+  color: black;
+  text-align: left;
+}
+/* -----      Colors for Skills     ------*/
+
+.skill-red {
+    background-color: #F53440;
+}
+
+.skill-yellow {
+    background-color: #FFEB3B;
+}
+
+.skill-blue {
+    background-color: rgb(9, 137, 231);
+}
+
+
+/* -----      Skill Percent Bars    ------*/
+.skill-forty-five {
+    width: 45%;
+}
+
+.skill-fifty-five {
+    width: 55%;
+}
+
+.skill-sixty {
+    width: 60%;
+}
+
+.skill-seventy {
+    width: 70%;
+}
+
+.separ {
+  margin-top: 50px;
+}
+
+
 
 @media (min-width: 768px) {
 	.header .navbar-brand {
