@@ -203,9 +203,7 @@ body {
   font-weight: 300;
 }
 
-.footer {
-  background-color: #1b1b1b;  
-}
+
 
 
 
@@ -232,3 +230,14 @@ body {
 
 
 
+
+.footer-center {
+    text-align: center;
+    color: #00cc99;
+}
+
+.fixed-bottom {
+    background-color: #1b1b1b;
+    position: absolute;
+    bottom: 0;
+}
