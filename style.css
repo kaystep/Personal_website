@@ -64,7 +64,7 @@ body {
 
 .page-section#intro {
 	height: 100px;
-    background: url("../resources/img/background.jpg") bottom center no-repeat;
+    background: url(../resources/img/background.jpg) bottom center no-repeat;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -201,6 +201,10 @@ body {
 #other-skills {
   font-size: 28px;
   font-weight: 300;
+}
+
+.footer {
+  background-color: #1b1b1b;  
 }
 
 
