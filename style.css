@@ -151,10 +151,30 @@ body {
     background-color: rgb(9, 137, 231);
 }
 
+.skill-orange {
+  background-color: #FF5722;
+}
+
+.skill-purple {
+  background-color: rgb(88, 1, 131);
+}
+
+.skill-aqua {
+  background-color: #00ADC8;
+}
+
 
 /* -----      Skill Percent Bars    ------*/
+.skill-thirty {
+    width: 30%;
+}
+
 .skill-forty-five {
     width: 45%;
+}
+
+.skill-fifty {
+    width: 50%;
 }
 
 .skill-fifty-five {
@@ -169,6 +189,9 @@ body {
     width: 70%;
 }
 
+.skill-seventy-five {
+    width: 75%;
+}
 .separ {
   margin-top: 50px;
 }
