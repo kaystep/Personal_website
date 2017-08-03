@@ -201,8 +201,19 @@ body {
 #other-skills {
   font-size: 28px;
   font-weight: 300;
+    text-align: center;
 }
 
+.footer-center {
+    text-align: center;
+    color: #00cc99;
+}
+
+.fixed-bottom {
+    background-color: #1b1b1b;
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
 
 
 
@@ -228,16 +239,3 @@ body {
 	}
 }
 
-
-
-
-.footer-center {
-    text-align: center;
-    color: #00cc99;
-}
-
-.fixed-bottom {
-    background-color: #1b1b1b;
-    position: absolute;
-    bottom: 0;
-}
