@@ -49,7 +49,7 @@ body {
 .page-section h2 {
 	font-size: 3em;
 	font-weight: 900;
-	color: #fff;
+	color: #00cc99; 
 	margin: 0 0 30px;
 	text-shadow: 2px 2px 2px #000;
 }
@@ -108,6 +108,8 @@ body {
     background-position: center;
     background-repeat: no-repeat;
 }
+
+
 
 
 .center-skills  {
