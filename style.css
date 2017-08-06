@@ -215,6 +215,20 @@ body {
     padding-top: 4px;
 }
 
+.portfolio-pic {
+    position: relative;
+    margin-top: 10px;
+    display: block;
+    margin: 0 auto;
+    width: 450px;
+    height: 275px;
+}
+
+.portfolio-left {
+    text-align: center;
+}
+
+
 
 
 
