@@ -70,6 +70,14 @@ body {
     background-repeat: no-repeat;
 }
 
+.page-section#portfolio {
+	height: 100px;
+    background: url(space.jpg) bottom center no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .img-circle {
     height: 200px;
     width: auto;
@@ -215,22 +223,55 @@ body {
     padding-top: 4px;
 }
 
+.image-container {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 450px;
+  height: 275px;
+  overflow: hidden;
+  text-align: center
+}
+
 .portfolio-pic {
-    position: relative;
-    margin-top: 10px;
-    display: block;
-    margin: 0 auto;
-    width: 450px;
-    height: 275px;
+   width: 450px;
+   height: 275px;
+   position: absolute;
+   
+}
+
+.portfolio-pic:hover {
+    opacity: .15;
+    transition:opacity 2s;
 }
 
 .portfolio-left {
     text-align: center;
+    color: #00cc99;
 }
 
+.image-container p {
+  z-index: -1;
+  width: 450px;
+  line-height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  font-family: "Trebuchet MS";
+  height: 275px
+}
 
+.hover-text {
+    color: #00cc99;
+    background-color: black;
+}
 
+.pic-padding-left {
+    margin-left: 100px;
+}
 
+.pic-padding-right {
+    margin-right: 100px
+}
 
 @media (min-width: 768px) {
 	.header .navbar-brand {
@@ -252,4 +293,7 @@ body {
 		margin: 0 0 20px;
 	}
 }
+
+
+
 
